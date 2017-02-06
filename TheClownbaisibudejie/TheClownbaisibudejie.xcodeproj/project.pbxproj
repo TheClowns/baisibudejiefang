@@ -17,6 +17,7 @@
 		02F6641A1E483000004A4695 /* TCLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664191E483000004A4695 /* TCLNewViewController.m */; };
 		02F6641D1E48300A004A4695 /* TCLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6641C1E48300A004A4695 /* TCLFriendTrendsViewController.m */; };
 		02F664201E483011004A4695 /* TCLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6641F1E483011004A4695 /* TCLMeViewController.m */; };
+		02F664231E48368A004A4695 /* TCLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664221E48368A004A4695 /* TCLTabBar.m */; };
 		30B6EB0EF6DE0D0E513DB34E /* libPods-TheClownbaisibudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		02F6641C1E48300A004A4695 /* TCLFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLFriendTrendsViewController.m; sourceTree = "<group>"; };
 		02F6641E1E483011004A4695 /* TCLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLMeViewController.h; sourceTree = "<group>"; };
 		02F6641F1E483011004A4695 /* TCLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLMeViewController.m; sourceTree = "<group>"; };
+		02F664211E48368A004A4695 /* TCLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLTabBar.h; sourceTree = "<group>"; };
+		02F664221E48368A004A4695 /* TCLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLTabBar.m; sourceTree = "<group>"; };
 		0332095186A9BF66516909C8 /* Pods-TheClownbaisibudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.debug.xcconfig"; sourceTree = "<group>"; };
 		E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheClownbaisibudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92E98F8866F5CDE0F126A6E /* Pods-TheClownbaisibudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				0227D6521E140B9B00BC55C8 /* AppDelegate.m */,
 				02F664021E481E7C004A4695 /* TCLViewController.h */,
 				02F664031E481E7C004A4695 /* TCLViewController.m */,
+				02F664211E48368A004A4695 /* TCLTabBar.h */,
+				02F664221E48368A004A4695 /* TCLTabBar.m */,
 				02F664111E482F89004A4695 /* 1-精华 */,
 				02F664121E482F89004A4695 /* 2-新帖 */,
 				02F664131E482F89004A4695 /* 3-关注 */,
@@ -284,6 +289,7 @@
 				0227D6531E140B9B00BC55C8 /* AppDelegate.m in Sources */,
 				02F6641A1E483000004A4695 /* TCLNewViewController.m in Sources */,
 				02F664171E482FEA004A4695 /* TCLEssenceViewController.m in Sources */,
+				02F664231E48368A004A4695 /* TCLTabBar.m in Sources */,
 				0227D6501E140B9B00BC55C8 /* main.m in Sources */,
 				02F664201E483011004A4695 /* TCLMeViewController.m in Sources */,
 			);

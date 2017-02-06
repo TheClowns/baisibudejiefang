@@ -11,6 +11,7 @@
 #import "TCLNewViewController.h"
 #import "TCLFriendTrendsViewController.h"
 #import "TCLMeViewController.h"
+#import "TCLTabBar.h"
 @interface TCLViewController ()
 
 @end
@@ -78,6 +79,10 @@
     [self setUpUI:[[TCLFriendTrendsViewController alloc]init] andTitle:@"关注" image:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
     
     [self setUpUI:[[TCLMeViewController alloc]init] andTitle:@"我" image:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
+    
+    [self setValue:[[TCLTabBar alloc]init] forKeyPath:@"tabBar"];
+    
+    
     
     
     
