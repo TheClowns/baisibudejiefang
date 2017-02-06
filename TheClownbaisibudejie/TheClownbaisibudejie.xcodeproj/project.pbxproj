@@ -13,6 +13,10 @@
 		0227D65B1E140B9B00BC55C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0227D65A1E140B9B00BC55C8 /* Assets.xcassets */; };
 		0227D65E1E140B9B00BC55C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0227D65C1E140B9B00BC55C8 /* LaunchScreen.storyboard */; };
 		02F664041E481E7C004A4695 /* TCLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664031E481E7C004A4695 /* TCLViewController.m */; };
+		02F664171E482FEA004A4695 /* TCLEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664161E482FEA004A4695 /* TCLEssenceViewController.m */; };
+		02F6641A1E483000004A4695 /* TCLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664191E483000004A4695 /* TCLNewViewController.m */; };
+		02F6641D1E48300A004A4695 /* TCLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6641C1E48300A004A4695 /* TCLFriendTrendsViewController.m */; };
+		02F664201E483011004A4695 /* TCLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6641F1E483011004A4695 /* TCLMeViewController.m */; };
 		30B6EB0EF6DE0D0E513DB34E /* libPods-TheClownbaisibudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,14 @@
 		0227D65F1E140B9B00BC55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F664021E481E7C004A4695 /* TCLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLViewController.h; sourceTree = "<group>"; };
 		02F664031E481E7C004A4695 /* TCLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLViewController.m; sourceTree = "<group>"; };
+		02F664151E482FEA004A4695 /* TCLEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLEssenceViewController.h; sourceTree = "<group>"; };
+		02F664161E482FEA004A4695 /* TCLEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLEssenceViewController.m; sourceTree = "<group>"; };
+		02F664181E483000004A4695 /* TCLNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLNewViewController.h; sourceTree = "<group>"; };
+		02F664191E483000004A4695 /* TCLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLNewViewController.m; sourceTree = "<group>"; };
+		02F6641B1E48300A004A4695 /* TCLFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLFriendTrendsViewController.h; sourceTree = "<group>"; };
+		02F6641C1E48300A004A4695 /* TCLFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLFriendTrendsViewController.m; sourceTree = "<group>"; };
+		02F6641E1E483011004A4695 /* TCLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLMeViewController.h; sourceTree = "<group>"; };
+		02F6641F1E483011004A4695 /* TCLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLMeViewController.m; sourceTree = "<group>"; };
 		0332095186A9BF66516909C8 /* Pods-TheClownbaisibudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.debug.xcconfig"; sourceTree = "<group>"; };
 		E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheClownbaisibudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92E98F8866F5CDE0F126A6E /* Pods-TheClownbaisibudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +81,10 @@
 				0227D6521E140B9B00BC55C8 /* AppDelegate.m */,
 				02F664021E481E7C004A4695 /* TCLViewController.h */,
 				02F664031E481E7C004A4695 /* TCLViewController.m */,
+				02F664111E482F89004A4695 /* 1-精华 */,
+				02F664121E482F89004A4695 /* 2-新帖 */,
+				02F664131E482F89004A4695 /* 3-关注 */,
+				02F664141E482F89004A4695 /* 4-我 */,
 				0227D6571E140B9B00BC55C8 /* Main.storyboard */,
 				0227D65A1E140B9B00BC55C8 /* Assets.xcassets */,
 				0227D65C1E140B9B00BC55C8 /* LaunchScreen.storyboard */,
@@ -84,6 +100,42 @@
 				0227D64F1E140B9B00BC55C8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02F664111E482F89004A4695 /* 1-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				02F664151E482FEA004A4695 /* TCLEssenceViewController.h */,
+				02F664161E482FEA004A4695 /* TCLEssenceViewController.m */,
+			);
+			path = "1-精华";
+			sourceTree = "<group>";
+		};
+		02F664121E482F89004A4695 /* 2-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				02F664181E483000004A4695 /* TCLNewViewController.h */,
+				02F664191E483000004A4695 /* TCLNewViewController.m */,
+			);
+			path = "2-新帖";
+			sourceTree = "<group>";
+		};
+		02F664131E482F89004A4695 /* 3-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				02F6641B1E48300A004A4695 /* TCLFriendTrendsViewController.h */,
+				02F6641C1E48300A004A4695 /* TCLFriendTrendsViewController.m */,
+			);
+			path = "3-关注";
+			sourceTree = "<group>";
+		};
+		02F664141E482F89004A4695 /* 4-我 */ = {
+			isa = PBXGroup;
+			children = (
+				02F6641E1E483011004A4695 /* TCLMeViewController.h */,
+				02F6641F1E483011004A4695 /* TCLMeViewController.m */,
+			);
+			path = "4-我";
 			sourceTree = "<group>";
 		};
 		08634495CF9259813A960F78 /* Frameworks */ = {
@@ -227,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F6641D1E48300A004A4695 /* TCLFriendTrendsViewController.m in Sources */,
 				02F664041E481E7C004A4695 /* TCLViewController.m in Sources */,
 				0227D6531E140B9B00BC55C8 /* AppDelegate.m in Sources */,
+				02F6641A1E483000004A4695 /* TCLNewViewController.m in Sources */,
+				02F664171E482FEA004A4695 /* TCLEssenceViewController.m in Sources */,
 				0227D6501E140B9B00BC55C8 /* main.m in Sources */,
+				02F664201E483011004A4695 /* TCLMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,11 +406,13 @@
 			baseConfigurationReference = 0332095186A9BF66516909C8 /* Pods-TheClownbaisibudejie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EKYUDB8TZH;
 				INFOPLIST_FILE = TheClownbaisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheClown.TheClownbaisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,11 +421,13 @@
 			baseConfigurationReference = F92E98F8866F5CDE0F126A6E /* Pods-TheClownbaisibudejie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EKYUDB8TZH;
 				INFOPLIST_FILE = TheClownbaisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheClown.TheClownbaisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
