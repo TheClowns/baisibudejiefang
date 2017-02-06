@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0227D6501E140B9B00BC55C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227D64F1E140B9B00BC55C8 /* main.m */; };
 		0227D6531E140B9B00BC55C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227D6521E140B9B00BC55C8 /* AppDelegate.m */; };
-		0227D6561E140B9B00BC55C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227D6551E140B9B00BC55C8 /* ViewController.m */; };
 		0227D6591E140B9B00BC55C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0227D6571E140B9B00BC55C8 /* Main.storyboard */; };
 		0227D65B1E140B9B00BC55C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0227D65A1E140B9B00BC55C8 /* Assets.xcassets */; };
 		0227D65E1E140B9B00BC55C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0227D65C1E140B9B00BC55C8 /* LaunchScreen.storyboard */; };
+		02F664041E481E7C004A4695 /* TCLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F664031E481E7C004A4695 /* TCLViewController.m */; };
 		30B6EB0EF6DE0D0E513DB34E /* libPods-TheClownbaisibudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +21,12 @@
 		0227D64F1E140B9B00BC55C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0227D6511E140B9B00BC55C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0227D6521E140B9B00BC55C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0227D6541E140B9B00BC55C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0227D6551E140B9B00BC55C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0227D6581E140B9B00BC55C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0227D65A1E140B9B00BC55C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0227D65D1E140B9B00BC55C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0227D65F1E140B9B00BC55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F664021E481E7C004A4695 /* TCLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLViewController.h; sourceTree = "<group>"; };
+		02F664031E481E7C004A4695 /* TCLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLViewController.m; sourceTree = "<group>"; };
 		0332095186A9BF66516909C8 /* Pods-TheClownbaisibudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.debug.xcconfig"; sourceTree = "<group>"; };
 		E4AC574489671BEB33C3C002 /* libPods-TheClownbaisibudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheClownbaisibudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92E98F8866F5CDE0F126A6E /* Pods-TheClownbaisibudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheClownbaisibudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheClownbaisibudejie/Pods-TheClownbaisibudejie.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 			children = (
 				0227D6511E140B9B00BC55C8 /* AppDelegate.h */,
 				0227D6521E140B9B00BC55C8 /* AppDelegate.m */,
-				0227D6541E140B9B00BC55C8 /* ViewController.h */,
-				0227D6551E140B9B00BC55C8 /* ViewController.m */,
+				02F664021E481E7C004A4695 /* TCLViewController.h */,
+				02F664031E481E7C004A4695 /* TCLViewController.m */,
 				0227D6571E140B9B00BC55C8 /* Main.storyboard */,
 				0227D65A1E140B9B00BC55C8 /* Assets.xcassets */,
 				0227D65C1E140B9B00BC55C8 /* LaunchScreen.storyboard */,
@@ -132,6 +132,7 @@
 		0227D6431E140B9B00BC55C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TCL;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "这是C先生";
 				TargetAttributes = {
@@ -226,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0227D6561E140B9B00BC55C8 /* ViewController.m in Sources */,
+				02F664041E481E7C004A4695 /* TCLViewController.m in Sources */,
 				0227D6531E140B9B00BC55C8 /* AppDelegate.m in Sources */,
 				0227D6501E140B9B00BC55C8 /* main.m in Sources */,
 			);
